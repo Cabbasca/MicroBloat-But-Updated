@@ -6,13 +6,14 @@
   "mixins": [
   ],
   "client": [
-    "TitleScreenMixin",
-    "RotatingCubeMapRendererMixin",
+    "AccessibilityOptionsScreenMixin",
+    "ControlsOptionsScreenMixin",
     "DeathScreenMixin",
     "GameMenuScreenMixin",
     "OptionsScreenMixin",
-    "AccessibilityOptionsScreenMixin",
-    "ControlsOptionsScreenMixin",
+    "RotatingCubeMapRendererMixin",
+    "TelemetryManagerMixin",
+    "TitleScreenMixin",
     "ToastManagerMixin"
   ],
   "injectors": {
