@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.sqrt.microBloat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "TitleScreenMixin",
+    "RotatingCubeMapRendererMixin",
+    "DeathScreenMixin",
+    "GameMenuScreenMixin",
+    "OptionsScreenMixin",
+    "AccessibilityOptionsScreenMixin",
+    "ControlsOptionsScreenMixin",
+    "ToastManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
